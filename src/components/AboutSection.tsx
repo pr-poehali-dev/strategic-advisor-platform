@@ -2,16 +2,10 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2
-          className="text-4xl font-bold text-[#11F2937] mb-8 text-center"
-          style={{ fontFamily: "Montserrat" }}
-        >
+        <h2 className="text-4xl font-bold text-burgundy-900 mb-8 text-center font-playfair">
           О себе
         </h2>
-        <div
-          className="space-y-6 text-lg text-gray-700 leading-relaxed"
-          style={{ fontFamily: "Open Sans" }}
-        >
+        <div className="space-y-6 text-lg text-burgundy-800 leading-relaxed font-lato">
           <p>
             Я — стратегический советник, работающий на стыке стратегии,
             лидерства и психологии. Моя экспертиза основана на понимании

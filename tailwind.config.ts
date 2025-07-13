@@ -19,8 +19,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
-        "open-sans": ["Open Sans", "sans-serif"],
+        cormorant: ["Cormorant Garamond", "serif"],
+        playfair: ["Playfair Display", "serif"],
+        lato: ["Lato", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -66,11 +68,24 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Strategic advisor custom colors
-        "advisor-navy": "#11F2937",
-        "advisor-blue": "#3B82F6",
-        "advisor-light-blue": "#60A5FA",
-        "advisor-gray": "#F8FAFC",
+        // Консильери фирменные цвета
+        burgundy: {
+          50: "#FDF2F3",
+          100: "#FBE8EA",
+          200: "#F7D1D5",
+          300: "#F1A8B1",
+          400: "#E9758A",
+          500: "#DE4A6B",
+          600: "#CA2E5A",
+          700: "#AA1E4A",
+          800: "#921F46",
+          900: "#5A2A33", // Основной цвет
+          950: "#3D0E15",
+        },
+        sandy: "#F2E9E4", // Молочный песочный
+        "warm-gray": "#A8A29E", // Тёплый серый
+        forest: "#314E43", // Тёмный лесной зелёный
+        copper: "#B58E72", // Золотисто-медный
       },
       borderRadius: {
         lg: "var(--radius)",
