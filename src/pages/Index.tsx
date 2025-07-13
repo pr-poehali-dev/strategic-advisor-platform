@@ -598,7 +598,12 @@ const Index = () => {
             Часто задаваемые вопросы
           </h2>
 
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion
+            type="single"
+            collapsible
+            className="space-y-4"
+            defaultValue=""
+          >
             <AccordionItem value="item-1" className="bg-white rounded-lg px-6">
               <AccordionTrigger
                 className="text-lg font-semibold text-[#11F2937]"
