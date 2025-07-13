@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
           <Card className="p-6">
             <div className="flex items-center mb-4">
               <div
-                className="w-12 h-12 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold"
+                className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold bg-red-800"
                 style={{ fontFamily: "Montserrat" }}
               >
                 А
@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
           <Card className="p-6">
             <div className="flex items-center mb-4">
               <div
-                className="w-12 h-12 bg-[#3B82F6] rounded-full flex items-center justify-center text-white font-bold"
+                className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold bg-red-800"
                 style={{ fontFamily: "Montserrat" }}
               >
                 М
